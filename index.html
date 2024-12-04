@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.css.map">
+  <link rel="stylesheet" href="style.css">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <title>TVS</title>
+</head>
+
+<body>
+
+  <!--small navbar-->
+
+
+  <ul class="nav justify-content-end d-none d-md-flex">
+    <li class="nav-item">
+      <a class="nav-link active text-dark d-flex" aria-current="page" href="#">
+        <img src="./img/dealer.svg " alt="booking" style="width: 15px; height: auto;">Booking</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#"><img src="/img/bike.svg" alt="test ride"
+          style="width: 15px; height: auto;">Test Drive</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#"><img src="/img/location.webp" alt="dealer locator"
+          style="width: 12px; height: auto;">Dealer Locator</a>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown">
+        <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="img/indian-flag.jpg" alt="indian-flag">
+          India
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><img src="img/uae-flag.jpg" alt="uae-flag">United Arab Emirates</a></li>
+          <li><a class="dropdown-item" href="#"><img src="img/armenia-flag.jpg" alt="armenia-flag">Armenia</a></li>
+          <li><a class="dropdown-item" href="#"><img src="img/angola-flag.jpg" alt="angola-flag">Angola</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <!--main navbar-->
+
+  <nav class="navbar navbar-expand-lg bg-white d-flex flex-grow-1">
+    <div class="container-fluid">
+      <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="toggler-icon top-bar"></span>
+        <span class="toggler-icon middle-bar"></span>
+        <span class="toggler-icon bottom-bar"></span>
+      </button>
+      <a class="navbar-brand m-auto" href="#"><img src="img/tvs-icon.svg" alt="tvs-icon"
+          style="width: auto; height: 30px;"></a>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">OVERVIEW</a></li>
+              <li><a class="dropdown-item" href="#">COMPANY VISION</a></li>
+              <li><a class="dropdown-item" href="#">SRINIVASAN SERVICE TRUST</a></li>
+              <li><a class="dropdown-item" href="#">BOARD OF DIRECTORS</a></li>
+              <li><a class="dropdown-item" href="#">ACHIEVEMENTS</a></li>
+              <li><a class="dropdown-item" href="#">CAREERS</a></li>
+              <li><a class="dropdown-item" href="#">DIVERSITY & INCLUSION</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">OUR PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR SERVICES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              INVESTORS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">OVERVIEW</a></li>
+              <li><a class="dropdown-item" href="#">FINANCIAL REPORT</a></li>
+              <li><a class="dropdown-item" href="#">INVESTOR INFORMATION</a></li>
+              <li><a class="dropdown-item" href="#">INVESTOR COMMUNICATION</a></li>
+              <li><a class="dropdown-item" href="#">SEBI DISCLOSURE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SUSTAINABILITY
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">OVERVIEW</a></li>
+              <li><a class="dropdown-item" href="#">COMPANY VISION</a></li>
+              <li><a class="dropdown-item" href="#">SRINIVASAN SERVICE TRUST</a></li>
+              <li><a class="dropdown-item" href="#">BOARD OF DIRECTORS</a></li>
+              <li><a class="dropdown-item" href="#">ACHIEVEMENTS</a></li>
+              <li><a class="dropdown-item" href="#">CAREERS</a></li>
+              <li><a class="dropdown-item" href="#">DIVERSITY & INCLUSION</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MEDIA
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PRESS RELEASE</a></li>
+              <li><a class="dropdown-item" href="#">NEWS</a></li>
+              <li><a class="dropdown-item" href="#">BLOG</a></li>
+              <li><a class="dropdown-item" href="#">PRESS KIT</a></li>
+              <li><a class="dropdown-item" href="#">MEDIA CONTACT</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">INTERNATIONAL</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ACCESSORIES & MERCHANDISE</a></li>
+              <li><a class="dropdown-item" href="#">PARTS & LUBRICANTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/tvs-racing.webp" alt="tvs-racing"
+                style="width: auto; height: 30px;"></a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link" href="#"><img src="img/contact.jpg" alt="contact"
+                style="width: auto; height: 30px;"></a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link" href="#"><img src="img/shop.svg" alt="shop" style="width: auto; height: 30px;"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+   
+    <!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: 100%;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+      aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+      aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+      aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+      aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+      aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+      aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+      aria-label="Slide 10"></button>
+  </div>
+  <div class="carousel-inner my-3">
+    <div class="carousel-item active">
+      <img src="img/tvs-apache.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-electric.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-bikes.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-radeon-specs.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-radeon.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-scooters.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-threewheelers.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-sport.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-xl100.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/tvs-xconnect.webp" class="d-block w-100 img-fluid" alt="...">
+    </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+    <!--stories card-->
+  <div class="container-stories-fluid d-none d-lg-block">
+    <div class="row align-items-start" style="width: 1024px; height: 120px;">
+      <div class="col">
+        <h4 class="text-white mx-5 my-3">THE MAKING OF</h4>
+        <h1 class="text-white mx-5">OUR STORIES</h1>
+      </div>
+    </div>
+  </div>
+
+ <!-- Cards Section -->
+
+  <div class="container-cards mt-3 mb-3">
+  <div class="row g-3 justify-content-center">
+    <div class="col-4  col-md-4 col-lg-3">
+      <div class="card text-bg-dark">
+        <img src="img/iqube.webp" class="card-img img-fluid" alt="...">
+        <div class="card-img-overlay">
+          <p class="card-text">TVS iQube Electric</p>
+          <h5 class="card-title">The Srilankan Odyssey</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4  col-md-4 col-lg-3">
+      <div class="card text-bg-dark">
+        <img src="img/person.webp" class="card-img img-fluid" alt="...">
+        <div class="card-img-overlay">
+          <p class="card-text">LEADERSHIP</p>
+          <h5 class="card-title">EY OF 2023</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-4  col-md-4 col-lg-3">
+      <div class="card text-bg-dark">
+        <img src="img/spot.webp" class="card-img img-fluid" alt="...">
+        <div class="card-img-overlay">
+          <p class="card-text">Safety.</p>
+          <h5 class="card-title">Protect Riders</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!--discover your ride-->
+
+<div class="container-vehicle-fluid d-none d-lg-block mb-3">
+  <div class="row align-items-start" style="width: 1024px; height: 120px;">
+    <div class="col">
+      <h4 class="text-white mx-5 my-3">DISCOVER YOUR RIDE</h4>
+      <h1 class="text-white mx-5">VEHICLES</h1>
+    </div>
+  </div>
+</div>
+
+<!---->
+
+<div class="container">
+  <div class="row d-none d-lg-flex">
+    <div class="col-lg-6">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/img/tvs-jupiter-logo.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tvs jupiter</h5>
+              <p class="card-text">113cc | 5.9kW @ 6500rpm | 106kg</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="/img/tvs-jupiter-logo2.webp" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tvs jupiter 125</h5>
+              <p class="card-text">249.78cc | 6kW @ 6500rpm | 108kg</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="/img/tvs-ntorq-logo.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tvs Ntorq</h5>
+              <p class="card-text">124.8cc | 7.5kW @ 6500rpm | 110kg</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="/img/tvs-zest-logo.svg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Tvs jupiter</h5>
+              <p class="card-text">109cc | 5.75kW @ 7500rpm | 103kg</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="card" style="width: 100%;">
+        <img src="/img/tvs-jupiter.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TVS Jupiter</h5>
+          <p class="card-text">EX Showroom | Rs.74981</p>
+          <a href="#" class="btn btn-primary">KNOWMORE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-lg-none">
+    <div class="card mb-3" style="width: 100%;">
+      <img src="/img/tvs-jupiter.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">TVS Jupiter</h5>
+        <p class="card-text">EX Showroom | Rs.74981</p>
+        <a href="#" class="btn btn-primary">KNOWMORE</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--button-->
+
+  <div class="d-grid gap-2 col-1 mx-auto mt-5 mb-5 width-auto">
+    <button class="btn btn-primary" type="button">view all</button>
+  </div>
+
+
+<!--container-->
+<div class="container-fluid1">
+  <div class="row d-flex justify-content-center mx-5 my-5">
+    <div class="col-lg-4 mb-4 d-none d-lg-block">
+      <div class="card text-bg-dark">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Two Wheelers</h5>
+          <p class="card-text">Deals near you</p>
+        </div>
+        <img src="/img/twobikes.webp" class="card-img img-fluid" alt="..." style="width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card text-bg-dark">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Three Wheelers</h5>
+          <p class="card-text">Deals near you</p>
+        </div>
+        <img src="/img/threewheeler.webp" class="card-img img-fluid" alt="..."style="width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4 d-none d-lg-block">
+      <div class="card text-bg-dark">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Electric Vehicles</h5>
+          <p class="card-text">Deals near you</p>
+        </div>
+        <img src="/img/apache.webp" class="card-img img-fluid" alt="..."style="width: 100%; height: auto;">
+      </div>
+    </div>
+    <div class="container">
+      <p style="color: white;">Partnering with TVSM gives you the opportunity to sell diversified products to possibly the largest set of customers, thus maximizing profits. Becoming a TVSM dealer could also offer a good supplementary business to your existing business, with an assured income every month at a minimal initial investment in infrastructure.</p>
+    </div>
+    
+  </div>
+ <!--racing--> 
+</div>
+<div class="container-racing-fluid d-none d-lg-block mb-3">
+  <div class="row align-items-start" style="width: 1024px; height: 120px;">
+    <div class="col">
+      <h4 class="text-white mx-5 my-3">WINNERS AT HEART</h4>
+      <h1 class="text-white mx-5">RACING</h1>
+    </div>
+  </div>
+</div>
+ <!--carousel 2-->
+
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/img/racing.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>RACING DNA UNLEASHED</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/img/racing1.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>DOMINANCE IN INDIAN CIRCUITS</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--guides-->
+
+
+<div class="container-guide-fluid d-none d-lg-block mb-3">
+  <div class="row align-items-start" style="width: 1024px; height: 120px;">
+    <div class="col">
+      <h4 class="text-white mx-5 my-3">WINNERS AT HEART</h4>
+      <h1 class="text-white mx-5">RACING</h1>
+    </div>
+  </div>
+</div> 
+<div class="container">
+  <p>We are committed to being a highly profitable, socially responsible, and leading manufacturer of high value for money, environmentally friendly, lifetime personal transportation products under the TVSM brand, for customers predominantly in Asian markets and to provide fulfillment and prosperity for employees, dealers, and suppliers.</p>
+</div>
+<!--cards3-->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 mb-4 d-none d-lg-block">
+      <div class="card" style="width: 18rem;">
+        <img src="/img/50mil.webp" class="card-img-top " alt="...">
+        <div class="card-body">
+          <p class="card-text">With more than 50 millin vehicles on road TVSM celebrates mobility and progress for countless number of people</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="/img/50mil.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">With the largest portfolio of products, ranging from mopeds to premium bikes</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4  d-none d-lg-block">
+      <div class="card" style="width: 18rem;">
+        <img src="/img/50mil.webp" class="card-img-top " alt="...">
+        <div class="card-body">
+          <p class="card-text">TVSM vehicles are providing joy to customers across more than 80 countries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--button-->
+
+<div class="d-grid gap-2 col-1 mx-auto mt-5 mb-5 width-auto">
+  <button class="btn btn-primary" type="button">more</button>
+</div>
+
+<!--achievements-->
+
+<div class="container-achieve-fluid d-none d-lg-block mb-3">
+  <div class="row align-items-start" style="width: 1024px; height: 120px;">
+    <div class="col">
+      <h4 class="text-dark mx-5 my-3 ">WINNERS AT HEART</h4>
+      <h1 class="text-dark mx-5">RACING</h1>
+    </div>
+  </div>
+</div>
+
+<!--awards-->
+<div class="container">
+  <h4>AWARDS</h4>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="card d-none d-lg-block" style="width: 24rem;">
+        <img src="/img/awards.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">commuter of the year-TVS Raider125</p>
+        </div>
+      </div>
+      <div class="card m-auto" style="width: 24rem;">
+        <img src="/img/awards1.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Motorcycle of the year - TVS Raider 125</p>
+        </div>
+      </div>
+      <div class="card d-none d-lg-block" style="width: 24rem;">
+        <img src="/img/awards2.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Two wheeler manufacture of the year</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--footer-->
+<footer class="bg-primary text-white py-5">
+  <div class="container px-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <h6>MOTORCYCLES</h6>
+        <p>TVS Apache</p>
+        <ul class="list-unstyled">
+          <li>RTR 310</li>
+          <li>RR 310</li>
+          <li>RTR 200 RV</li>
+          <li>RTR 180</li>
+          <li>RTR 160 4V</li>
+          <li>RTR 160</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6>ELECTRIC SCOOTERS</h6>
+        <p>TVS iQUBE</p>
+        <ul class="list-unstyled">
+          <li>TVS iQUBE 2.2kWh</li>
+          <li>TVS iQUBE 3.4kWh</li>
+          <li>TVS iQUBE s 3.4kWh</li>
+          <li>TVS iQUBE st 3.4kWh</li>
+          <li>TVS iQUBE st 5.1kWh</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6>SCOOTERS</h6>
+        <ul class="list-unstyled">
+          <li>Jupiter 110</li>
+          <li>Jupiter 125</li>
+          <li>Ntorq</li>
+          <li>zest 110</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6>INVESTORS</h6>
+        <ul class="list-unstyled">
+          <li>Overview</li>
+          <li>Financial Report</li>
+          <li>Communication</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6>THREE WHEELERS</h6>
+        <ul class="list-unstyled">
+          <li>King Deluxe</li>
+          <li>King Duramax</li>
+          <li>King Duramx Plus</li>
+          <li>King Kargo</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6>ABOUT US</h6>
+        <ul class="list-unstyled">
+          <li>Overview</li>
+          <li>Company's Vision</li>
+          <li>Achievements</li>
+          <li>Careers</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
